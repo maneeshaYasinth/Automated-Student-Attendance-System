@@ -1,2 +1,1 @@
 Course: BECS 12451, Lecturer: electronic lab
-Course                 Lecturer NameBECS 12451: electronic lab
