@@ -1,5 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,17 +5,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Collectors;
 
-
-//Course registration class is to save the course number and the lecturer name in a file
 class CourseRegistration {
     private String courseName;
     private String lectureName;
-
-    //creating a file to save the course
     private static final String FILE_PATH = "course_registration.txt";
 
-
-    //to check if the course is already registered
     public boolean isCourseAlreadyRegistered() {
         try {
             Path path = Paths.get(FILE_PATH);
@@ -31,8 +23,6 @@ class CourseRegistration {
         return false;
     }
 
-
-    //course registeration
     public void registerCourse(String courseName, String lectureName) {
         if (isCourseAlreadyRegistered()) {
             System.out.println("Course " + courseName + " is already registered.");
@@ -44,7 +34,6 @@ class CourseRegistration {
         }
     }
 
-    //saving the courese in the file
     private void saveToFile() {
         try (FileWriter writer = new FileWriter(FILE_PATH, true)) {
             writer.write("Course: " + courseName + ", Lecturer: " + lectureName + "\n");
