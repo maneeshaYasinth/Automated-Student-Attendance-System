@@ -1,0 +1,21 @@
+           Attendance Report                
+--------------------------------------------
+ Date                         : 2024-02-27      
+ Date                         : 10:17:30        
+ Course module                : BECS 12223      
+ Lecturer Name                : Dr. Thosini Kumarika 
+ Lecture Hall                 : A7 406          
+--------------------------------------------
+Kaveen          EC/2021/040     1               
+Dishan          EC/2021/077     1               
+Kushitha        EC/2021/044     1               
+Naveen          EC/2021/016     1               
+Maneesha        EC/2021/026     0               
+Haritha         EC/2021/020     1               
+Heshan          EC/2021/029     1               
+Kavindu         EC/2021/031     1               
+Sithara         EC/2021/032     1               
+Sithum          EC/2021/034     1               
+Binath          EC/2021/008     1               
+Thinuri         EC/2021/001     0               
+Dinujaya        EC/2021/005     1               
